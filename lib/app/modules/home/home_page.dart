@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("ABRIR"),
+        child: Text("OPEN"),
         onPressed: () {
           Get.bottomSheet(
             builder: (_) {
